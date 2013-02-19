@@ -8,6 +8,15 @@
                  ;;web
                  [ring "1.1.0"]
 		 [compojure "1.0.2"]
-		 [hiccup "1.0.0"]]
+		 [hiccup "1.0.0"]
+                 ;; MQ - 
+                 ;; Redis - https://github.com/ptaoussanis/carmine
+                 [com.taoensso/carmine "1.5.0"] 
+                 ;; IronMQ - https://github.com/iron-io/iron_mq_clojure
+                 ;; [iron_mq_clojure "1.0.3"] 
+                 ;; RabbitMQ
+                 ;;[com.rabbitmq/amqp-client "2.8.2"]
+                 ;;[com.mefesto/wabbitmq "0.2.2"]
+                 ]
   :main only-once.core
   :jvm-opts ["-Xmx64M"])

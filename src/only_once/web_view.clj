@@ -4,7 +4,7 @@
    [hiccup core form]
    [hiccup.page :only (html5)]
    [hiccup.middleware :only (wrap-base-url)]
-   [only-once.memory :only [mget mset]])
+   [only-once.mq :only [mget mset]])
   (:require 
    [compojure.route :as route]
    [compojure.handler :as handler]
